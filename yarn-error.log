@@ -1,0 +1,69 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-devicon
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Dart\dart-sdk\bin;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\AMD\AppData\Local\Programs\Python;C:\Program Files\nodejs\;C:\Program Files\Android\Android Studio\gradle\gradle-5.1.1\bin;C:\Users\AMD\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\AMD\AppData\Local\Programs\Python\Python37-32\;C:\Users\AMD\AppData\Local\Microsoft\WindowsApps;C:\Users\AMD\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\AMD\AppData\Local\Android\Sdk\platform-tools;C:\Users\AMD\AppData\Local\Android\Sdk\tools;C:\Users\AMD\AppData\Local\Yarn\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Users\AMD\AppData\Local\Android\Sdk\tools;C:\src\flutter\bin;C:\src\flutter\.pub-cache\bin;C:\Program Files\Git\cmd\;C:\Program Files\Git\bin\;C:\Users\AMD\AppData\Local\Programs\Python;C:\Users\AMD\AppData\Roaming\npm
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  12.7.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\AMD\Downloads\PAVAN\resume-bootstrap4-master\node_modules\colors\examples'
+
+npm manifest: 
+  {
+    "title": "Resume",
+    "name": "startbootstrap-resume",
+    "version": "4.0.0-beta.2",
+    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+    "keywords": [
+      "css",
+      "sass",
+      "html",
+      "responsive",
+      "theme",
+      "template"
+    ],
+    "homepage": "https://startbootstrap.com/template-overviews/resume",
+    "bugs": {
+      "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
+      "email": "feedback@startbootstrap.com"
+    },
+    "license": "MIT",
+    "author": "Start Bootstrap",
+    "contributors": [
+      "David Miller (http://davidmiller.io/)"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+    },
+    "dependencies": {
+      "bootstrap": "^4.0.0-beta.2",
+      "devicons": "^1.8.0",
+      "jquery": "^3.2.1",
+      "popper.js": "^1.12.6",
+      "simple-line-icons": "^2.4.1"
+    },
+    "devDependencies": {
+      "browser-sync": "2.18.13",
+      "gulp": "^3.9.1",
+      "gulp-clean-css": "3.9.0",
+      "gulp-header": "1.8.9",
+      "gulp-rename": "^1.2.2",
+      "gulp-sass": "^3.1.0",
+      "gulp-uglify": "3.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
